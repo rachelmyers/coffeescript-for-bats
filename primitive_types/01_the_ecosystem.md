@@ -44,7 +44,7 @@ And you can use concatenation or interpolation to create strings that contain th
 ## Arrays
 An array is a list of values; the order matters because that’s how you’ll pull things out of the array. Elements of an array can be a variable or primitive type, or even an object, which we’ll learn about later.
 
-peopleExcitedForCoffeescript = [“Rachel”, bestListener, [“Emily”, “Jesse”, “Sally”], 43 ]
+`peopleExcitedForCoffeescript = [“Rachel”, bestListener, [“Emily”, “Jesse”, “Sally”], 43 ]`
 
 And you can get values from an array if you know the index, which place it is in the array, starting at 0!
 `peopleExcitedForCoffeescript[3]`
@@ -52,4 +52,35 @@ And you can get values from an array if you know the index, which place it is in
 The .. syntax specifies a range.
 `peopleActuallyExcited = peopleExcitedForCoffeescript[0..3]`
 
-peopleExcitedForCoffeescript
+Other methods that you might expect as things you need to work quickly with Arrays are here, too:
+`peopleExcitedForCoffeescript.length`
+
+## Objects
+
+Objects, called Hashes in other languages, are lists of keys and values. Think of the key as the name of an attribute, and the value as the specific value of that attribute.
+```coffee
+LiskovCat = {
+  eyeColor: "sometimes yellow, sometimes orange",
+  furColor: "Black, Tan and White",
+  ageInMonths: 7,
+  favoriteFlyingMammal: "Bats"
+}
+```
+(For readability, I added line breaks between the commas, but you don't need to.)
+
+And after creating an object, read those attributes with a bracket syntax:
+`console.log LiskovCat["eyeColor"]`
+(Make sure to wrap the key in quotes!)
+
+And you can set new attributes almost the same way:
+```coffee
+LiskovCat["favoriteBird"] = "Hummingbirds"
+console.log LiskovCat
+```
+
+## Combining what we know.
+Given what we know so far,
+- Create an Object representing you, including an `coffeescriptExcitementLevel` attribute, which should be a number.
+- Read that attribute, and assign it to a variable, perhaps called `enthusiasm`
+- Calculate a second variable, called `expectedFutureEnthusiasm` that is your current `enthusiasm`, multiplied by some number.
+- Alert or log that value to the console with some descriptive text.

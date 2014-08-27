@@ -11,6 +11,7 @@ to get your learn on.
 * Account on GitHub : http://www.github.com
 * Software
   * Atom - https://atom.io/
+    * CoffeeScript Package
   * Github for Mac/Windows : https://mac.github.com / https://windows.github.com
 
 ### Computer
@@ -37,9 +38,20 @@ using a feature or functionality that your chosen clients don't support.
 
 You can download Atom from https://atom.io/.
 
-Even if you have Atom from before (from Boxen or an old install), you may want to download the latest/check to make sure you have the latest version as Atom has changed a lot in the last year or so. 
+Even if you have Atom from before (from Boxen or an old install), you may want to download the latest/check to make sure you have the latest version as Atom has changed a lot in the last year or so.
 
 At the time of writing this, 0.124.0 is the latest version.
+
+##### CoffeeScript for Atom
+
+In order to change CoffeeScript to JavaScript we will need a CoffeeScript compiler. Don't worry if this doesn't make sense, we will explain why in the training, but to get ready we ask that you install the `coffeescript-build` Atom package (https://atom.io/packages/coffeescript-build).
+
+To install an Atom package,
+
+1. Open Atom and from the Atom menu select `Preferences`
+2. Click on `Packages` from the left hand column.
+3. On the right, under `Install Packages` in the text field type in `coffeescript-build` and hit enter
+4. Once Atom searches its packages it should return for you a package with the title `Coffeescript Build`. Click on the button `Install`
 
 #### GitHub for Your OS
 

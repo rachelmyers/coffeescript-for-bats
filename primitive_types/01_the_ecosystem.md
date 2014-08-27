@@ -78,9 +78,11 @@ LiskovCat["favoriteBird"] = "Hummingbirds"
 console.log LiskovCat
 ```
 
-## Combining what we know.
+## Exercise
 Given what we know so far,
 - Create an Object representing you, including an `coffeescriptExcitementLevel` attribute, which should be a number.
 - Read that attribute, and assign it to a variable, perhaps called `enthusiasm`
 - Calculate a second variable, called `expectedFutureEnthusiasm` that is your current `enthusiasm`, multiplied by some number.
 - Alert or log that value to the console with some descriptive text.
+- :neckbeard:
+- If you have time, create an array of hair colors, and assign a HairColor attribute to your object by selecting an element from that array.

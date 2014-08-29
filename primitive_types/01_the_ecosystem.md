@@ -59,7 +59,7 @@ Other methods that you might expect as things you need to work quickly with Arra
 
 Objects, called Hashes in other languages, are lists of keys and values. Think of the key as the name of an attribute, and the value as the specific value of that attribute.
 ```coffee
-LiskovCat = {
+liskovCat = {
   eyeColor: "sometimes yellow, sometimes orange",
   furColor: "Black, Tan and White",
   ageInMonths: 7,

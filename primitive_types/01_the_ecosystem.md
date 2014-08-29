@@ -74,8 +74,8 @@ And after creating an object, read those attributes with a bracket syntax:
 
 And you can set new attributes almost the same way:
 ```coffee
-LiskovCat["favoriteBird"] = "Hummingbirds"
-console.log LiskovCat
+liskovCat["favoriteBird"] = "Hummingbirds"
+console.log liskovCat
 ```
 
 ## Exercise

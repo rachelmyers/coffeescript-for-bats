@@ -24,7 +24,7 @@ catAge = 5
 
 if catAge < 1
   console.log "That cat is still a kitten!"
-else if liskovAge < 10
+else if catAge < 10
   console.log "That cat is a normal cat."
 else
   console.log "Wow. That cat is old!"

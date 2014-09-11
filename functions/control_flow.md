@@ -53,8 +53,8 @@ And we can do something similar with Objects:
 liskov =
   name:     "Liskov"
   age:      .6
-  eyeColor: "sometimes yellow, sometimes orange",
-  furColor: "Black, Tan and White",
+  eyeColor: "sometimes yellow, sometimes orange"
+  furColor: "Black, Tan and White"
 
 for key, value of liskov
   console.log "Liskov's #{key} is #{value}!"

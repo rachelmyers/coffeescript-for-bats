@@ -5,10 +5,12 @@ Programmers call that "control flow", controlling the code paths you'll take.
 Comparisons that in other languages use the sumbols `=` or `!=`, use words like `is` or `isnt`.
 
 Try checking the output of these expressions:
-`7 is 7`
-`7 is 3 + 4`
-`7 isnt 12`
-`7 > 3`
+- `console.log 7 is 7`
+- `console.log 7 is 3 + 4`
+- `console.log 7 isnt 12`
+- `console.log 7 > 3`
+
+
 
 The words `and` and `or` are coffeescript keywords that correspond to the symbolic logic meaning of `⋀` and `⋁`. (If you're more familiar with Ruby, it's `&&` and `||` there.)
 Try making expressions using `is`, `isnt`, `and` and `or`, like
@@ -24,7 +26,7 @@ catAge = 5
 
 if catAge < 1
   console.log "That cat is still a kitten!"
-else if liskovAge < 10
+else if catAge < 10
   console.log "That cat is a normal cat."
 else
   console.log "Wow. That cat is old!"
@@ -40,7 +42,7 @@ catAges = [8, .2, 3, 5, .6, 13, 4]
 for catAge in catAges
   if catAge < 1
     console.log "That cat is still a kitten!"
-  else if liskovAge < 10
+  else if catAge < 10
     console.log "That cat is a normal cat."
   else
     console.log "Wow. That cat is old!"
@@ -51,10 +53,10 @@ And we can do something similar with Objects:
 liskov =
   name:     "Liskov"
   age:      .6
-  eyeColor: "sometimes yellow, sometimes orange",
-  furColor: "Black, Tan and White",
+  eyeColor: "sometimes yellow, sometimes orange"
+  furColor: "Black, Tan and White"
 
-for key, value of Liskov
+for key, value of liskov
   console.log "Liskov's #{key} is #{value}!"
 ```
 

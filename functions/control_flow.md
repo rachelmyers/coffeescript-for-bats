@@ -5,10 +5,12 @@ Programmers call that "control flow", controlling the code paths you'll take.
 Comparisons that in other languages use the sumbols `=` or `!=`, use words like `is` or `isnt`.
 
 Try checking the output of these expressions:
-`7 is 7`
-`7 is 3 + 4`
-`7 isnt 12`
-`7 > 3`
+- `console.log 7 is 7`
+- `console.log 7 is 3 + 4`
+- `console.log 7 isnt 12`
+- `console.log 7 > 3`
+
+
 
 The words `and` and `or` are coffeescript keywords that correspond to the symbolic logic meaning of `⋀` and `⋁`. (If you're more familiar with Ruby, it's `&&` and `||` there.)
 Try making expressions using `is`, `isnt`, `and` and `or`, like

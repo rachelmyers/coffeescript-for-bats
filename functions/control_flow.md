@@ -40,7 +40,7 @@ catAges = [8, .2, 3, 5, .6, 13, 4]
 for catAge in catAges
   if catAge < 1
     console.log "That cat is still a kitten!"
-  else if liskovAge < 10
+  else if catAge < 10
     console.log "That cat is a normal cat."
   else
     console.log "Wow. That cat is old!"
@@ -54,7 +54,7 @@ liskov =
   eyeColor: "sometimes yellow, sometimes orange",
   furColor: "Black, Tan and White",
 
-for key, value of Liskov
+for key, value of liskov
   console.log "Liskov's #{key} is #{value}!"
 ```
 
